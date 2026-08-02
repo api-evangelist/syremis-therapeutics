@@ -1,8 +1,28 @@
 aid: syremis-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syremis-therapeutics.png
 name: Syremis Therapeutics
-description: 'Syremis Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Syremis Therapeutics is a clinical-stage biopharmaceutical company based
+  in Tel Aviv, Israel and Boston, Massachusetts, developing best-in-class oral small-molecule
+  medicines for serious mental health conditions. Its neuropsychiatric pipeline is
+  rooted in clinically validated mechanisms including muscarinic M1/M4 agonism and
+  next-generation NMDA antagonism; lead program ST-905 is a dual M1/M4 agonist in
+  Phase 1 for schizophrenia, with ST-901 also spun out from Clexio Biosciences. The
+  company launched publicly in December 2025 with a $165M Series A co-led by Dexcel
+  Pharma and Third Rock Ventures, with participation from Bain Capital Life Sciences,
+  GV (Google Ventures), QVT, and Pictet. Surfaced in the API Evangelist network as
+  a portfolio company of GV. This company publishes no public API, developer, or event
+  surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/syremis-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Mental Health
+- Neuroscience
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/syremis-therapeutics-domain-security.yml
 - type: Website
   url: https://syremis.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
